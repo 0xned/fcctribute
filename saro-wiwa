@@ -1,0 +1,39 @@
+<style>
+#main {background-color: green;}
+#title {text-align: center; 
+       font-family: arial; 
+        font-size: 50px;} 
+p {text-align: center; font-size: 20px;}
+img {max-width: 100%;
+     height: auto;
+     display: block;}
+figure {text-align: center;}
+figcaption {font-size: 20px;}
+#tribute-info {display: flex;
+  justify-content: space-around;}  
+  
+</style>
+
+
+
+<div id="main"> 
+  <h1 id="title"> Ken Saro Wiwa </h1>
+  <p> The Death Of Nigeria's Democracy </p>
+  <figure id="img-div" > <img id="image" src="https://guardian.ng/wp-content/uploads/2018/10/Ken-saro-wiwa.-Photo-The-Guardian-Nigeria-1062x598.jpg" alt="Photo of Ken Saro Wiwa"> <figcaption id="img-caption"> Face of what would have been Nigeria's democracy. </figcaption> </figure>
+  <hr>
+  <div id="tribute-info"> <h3> Life and Times of Ken Saro Wiwa: </h3>
+  <ul>
+    <li> <b>1941</b> - Born in Bori, Nigeria </li> <br>
+    <li> <b>1962</b> - Obtains a scholarship to study English at the University of Ibadan. </li> <br>
+    <li> <b>1977</b> - Lost the election to represent Ogoni in the Constituent Assembly </li> <br>
+    <li> <b>1990</b> - Begins devoting time to human rights and environmental causes, in Ogoniland. </li> <br>
+    <li> <b>1992</b> - Imprisoned by the Nigerian military government for several months, without trial. </li> <br>
+    <li> <b>1994</b> - Rearrested, accused and charged for inciting the murder of four prominent Ogoni chiefs. </li> <br>
+    <li> <b>1995</b> - Executed by hanging following a specially convened tribunal's sentence. </li>
+    </ul>
+  </div>
+    <p id="tribute-page"> For more infomation about this great man, checkout his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Ken_Saro-Wiwa" target="_blank">Wikipedia Entry</a>.</p>
+    
+    
+</div>
+
